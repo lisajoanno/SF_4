@@ -40,22 +40,22 @@
     </profiles>
 
 
-    <pluginRepositories>
+    <repositories>
         <!-- Snapshot repository to access to the latest version of the OpenEJB framework -->
-        <pluginRepository>
+        <repository>
             <id>apache-m2-snapshot</id>
             <name>Apache Snapshot Repository</name>
             <url>https://repository.apache.org/content/groups/snapshots</url>
-        </pluginRepository>
-        <pluginRepository>
+        </repository>
+        <repository>
         <id>snapshots</id>
         <url>http://erebe-vm6.i3s.unice.fr/artifactory/libs-snapshot</url>
         <releases>
             <enabled>false</enabled>
         </releases>
-    </pluginRepository>
+    </repository>
 
-    </pluginRepositories>
+    </repositories>
     <dependencyManagement>
         <dependencies>
             <!-- Dependencies for the OpenEJB framework -->
